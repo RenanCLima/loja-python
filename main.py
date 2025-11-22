@@ -1,6 +1,6 @@
-from negocio import pagina_inicial
+from negocio import pagina_menu_inicial
 def main():
     status_main = True
-    pagina_inicial()
+    pagina_menu_inicial()
 
 main()

@@ -1,0 +1,8 @@
+CREATE DATABASE loja_python;
+
+CREATE TABLE cliente (
+    id INT AUTO_INCREMENT PRIMARY KEY,
+    cpf CHAR(11) UNIQUE NOT NULL,
+    nome VARCHAR(255) NOT NULL,
+    telefone CHAR(11)
+);
